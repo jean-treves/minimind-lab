@@ -1,0 +1,11 @@
+[project]
+name = "minimind-lab"
+version = "0.1.0"
+description = "MiniMind (64M LLM) trained from scratch: CPU smoke on a Mac, real run on a Kaggle T4, Ollama export"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets==3.6.0",
+    "torch>=2.14.0",
+    "transformers==4.57.6",
+]
