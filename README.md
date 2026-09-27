@@ -25,6 +25,10 @@ Log: `results/cpu-smoke.log` (each line prefixed with a Unix timestamp). Summary
 | **MPS** (M1 Pro GPU) | fp32 | **1.89 it/s (× 1.78)** | 7.620 → 5.939 | 171 s | 0.93 GB | `results/mps-smoke.log` |
 | MPS | fp16 autocast + GradScaler | 1.72 it/s | 7.620 → 5.943 | 181 s | 0.94 GB | `results/mps-fp16-smoke.log` |
 
+![Smoke-test loss on CPU, MPS fp32 and MPS fp16](results/smoke_loss.png)
+
+The three curves overlap (same seed, same 2,400 samples): the device changes the speed, not the numbers.
+
 Upstream only knows CUDA: any other device gets `nullcontext()` instead of autocast, so `--device mps`
 works as-is in fp32. `scripts/mps_patch.py` swaps the autocast and GradScaler lines in memory (the
 submodule is untouched) to test float16: at this size (batch 8 × 128 tokens) the casts cost more than
