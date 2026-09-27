@@ -17,6 +17,25 @@ CPU smoke test, 2026-09-27, Apple M1 Pro (8 cores), torch 2.14.0, `scripts/cpu_s
 
 Log: `results/cpu-smoke.log` (each line prefixed with a Unix timestamp). Summary: `python scripts/parse_log.py results/cpu-smoke.log`.
 
+### CPU vs Apple GPU (MPS), same 300 steps, same seed, 2026-09-28
+
+| Device | Precision | Throughput | Loss 10 → 300 | Wall time | Peak RSS | Log |
+|---|---|---|---|---|---|---|
+| CPU (8 cores) | fp32 | 1.06 it/s | 7.620 → 5.941 | 307 s | 2.0 GB | `results/cpu-smoke.log` |
+| **MPS** (M1 Pro GPU) | fp32 | **1.89 it/s (× 1.78)** | 7.620 → 5.939 | 171 s | 0.93 GB | `results/mps-smoke.log` |
+| MPS | fp16 autocast + GradScaler | 1.72 it/s | 7.620 → 5.943 | 181 s | 0.94 GB | `results/mps-fp16-smoke.log` |
+
+Upstream only knows CUDA: any other device gets `nullcontext()` instead of autocast, so `--device mps`
+works as-is in fp32. `scripts/mps_patch.py` swaps the autocast and GradScaler lines in memory (the
+submodule is untouched) to test float16: at this size (batch 8 × 128 tokens) the casts cost more than
+they save, and fp32 stays the fastest option on this machine.
+
+```bash
+DEVICE=mps zsh scripts/cpu_smoke.sh                                                        # fp32
+DEVICE=mps ENTRY=$PWD/scripts/mps_patch.py LOG=$PWD/results/mps-fp16-smoke.log \
+  zsh scripts/cpu_smoke.sh --dtype float16                                                  # fp16
+```
+
 ## Reproduce
 
 ```bash

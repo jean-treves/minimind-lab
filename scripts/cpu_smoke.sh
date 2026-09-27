@@ -8,6 +8,7 @@ STEPS=${STEPS:-300}
 BATCH=${BATCH:-8}
 SEQ=${SEQ:-128}
 DEVICE=${DEVICE:-cpu}
+ENTRY=${ENTRY:-train_pretrain.py}  # scripts/mps_patch.py for float16 autocast on MPS
 LOG=${LOG:-$LAB/results/${DEVICE}-smoke.log}
 SRC=$LAB/data/pretrain_t2t_mini.head32mb.jsonl
 SLICE=$LAB/data/pretrain_smoke_$((STEPS * BATCH)).jsonl
@@ -21,7 +22,7 @@ fi
 head -n $((STEPS * BATCH)) "$SRC" > "$SLICE"
 
 cd "$LAB/upstream/trainer"  # upstream resolves ../model (tokenizer) from the cwd
-nice -n 10 "$LAB/.venv/bin/python" -u train_pretrain.py \
+nice -n 10 "$LAB/.venv/bin/python" -u "$ENTRY" \
   --device "$DEVICE" --epochs 1 --batch_size "$BATCH" --max_seq_len "$SEQ" \
   --accumulation_steps 1 --log_interval 10 --save_interval 100000 --num_workers 0 \
   --data_path "$SLICE" --save_dir "$LAB/out" --save_weight "smoke_${DEVICE}" "$@" 2>&1 \
