@@ -4,3 +4,4 @@ results/checkpoints/
 out/
 __pycache__/
 results/hf/
+.DS_Store
