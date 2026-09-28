@@ -66,7 +66,7 @@ itself on longer answers. English is weak and French is nonsense: the training d
 ## Reproduce
 
 ```bash
-git clone --recurse-submodules <this repo> && cd minimind-lab && uv sync
+git clone --recurse-submodules https://github.com/jean-treves/minimind-lab.git && cd minimind-lab && uv sync
 
 # 1. Smoke test on the Mac (~5 min on CPU, ~3 min on MPS)
 mkdir -p data && curl -L -r 0-33554431 -o data/head.part \
@@ -101,5 +101,5 @@ locally through the submodule's `info/exclude`). On Kaggle, the datasets are fet
 
 ## Data and licences
 
-See `results/DATASETS.md`. Code: Apache-2.0. Dataset card: Apache-2.0 **and CC-BY-NC-2.0**, so the model
+See `results/DATASETS.md`. This repo's scripts: MIT (`LICENSE`); upstream MiniMind: Apache-2.0. Dataset card: Apache-2.0 **and CC-BY-NC-2.0**, so the model
 trained here is for non-commercial use only. Weights are not versioned (`results/checkpoints/`).
