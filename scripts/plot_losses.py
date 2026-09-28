@@ -4,6 +4,7 @@ Usage: ``uv run python scripts/plot_losses.py results/smoke_loss.png "CPU fp32=r
 Each series is ``label=path``; the figure is stamped with the logs' date range and the generation time.
 """
 
+import argparse
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -49,6 +50,9 @@ def plot(out: Path, series: dict[str, Path], title: str) -> None:
 
 
 if __name__ == "__main__":
-    target, *pairs = sys.argv[1:]
-    plot(Path(target), {k: Path(v) for k, v in (p.split("=", 1) for p in pairs)},
-         title="MiniMind 64M, pretraining loss")
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("out", type=Path)
+    parser.add_argument("series", nargs="+", help="label=path")
+    parser.add_argument("--title", default="MiniMind 64M, pretraining loss")
+    args = parser.parse_args()
+    plot(args.out, {k: Path(v) for k, v in (s.split("=", 1) for s in args.series)}, args.title)

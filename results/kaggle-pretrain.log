@@ -1,0 +1,241 @@
+1790546702.279 W0927 22:05:02.278000 87 torch/distributed/run.py:852] 
+1790546702.279 W0927 22:05:02.278000 87 torch/distributed/run.py:852] *****************************************
+1790546702.279 W0927 22:05:02.278000 87 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+1790546702.279 W0927 22:05:02.278000 87 torch/distributed/run.py:852] *****************************************
+1790546729.844 Model Params: 63.91M
+1790546729.845 Trainable Params: 63.912M
+1790546730.303 
+1790546730.464 Generating train split: 0 examples [00:00, ? examples/s]
+1790546730.574 Generating train split: 28068 examples [00:00, 174415.97 examples/s]
+1790546730.723 Generating train split: 56547 examples [00:00, 215783.92 examples/s]
+1790546730.826 Generating train split: 99700 examples [00:00, 252571.04 examples/s]
+1790546730.928 Generating train split: 145127 examples [00:00, 314015.72 examples/s]
+1790546731.085 Generating train split: 200536 examples [00:00, 385819.98 examples/s]
+1790546731.186 Generating train split: 278508 examples [00:00, 430767.88 examples/s]
+1790546731.289 Generating train split: 328130 examples [00:00, 447166.80 examples/s]
+1790546731.397 Generating train split: 382948 examples [00:00, 472161.25 examples/s]
+1790546731.736 Generating train split: 434115 examples [00:01, 473028.10 examples/s]
+1790546731.929 Generating train split: 493457 examples [00:01, 301864.19 examples/s]
+1790546732.031 Generating train split: 534705 examples [00:01, 274176.78 examples/s]
+1790546732.137 Generating train split: 574669 examples [00:01, 296524.49 examples/s]
+1790546732.332 Generating train split: 623860 examples [00:01, 334161.73 examples/s]
+1790546732.546 Generating train split: 668951 examples [00:02, 295871.86 examples/s]
+1790546732.751 Generating train split: 704386 examples [00:02, 248108.87 examples/s]
+1790546732.906 Generating train split: 739828 examples [00:02, 223061.21 examples/s]
+1790546733.127 Generating train split: 766321 examples [00:02, 209311.09 examples/s]
+1790546733.321 Generating train split: 801742 examples [00:02, 192196.46 examples/s]
+1790546733.529 Generating train split: 837240 examples [00:03, 189257.76 examples/s]
+1790546733.727 Generating train split: 876133 examples [00:03, 188466.29 examples/s]
+1790546733.925 Generating train split: 916114 examples [00:03, 192466.68 examples/s]
+1790546734.026 Generating train split: 956944 examples [00:03, 196623.00 examples/s]
+1790546734.174 Generating train split: 981031 examples [00:03, 204270.61 examples/s]
+1790546734.368 Generating train split: 1013047 examples [00:03, 207737.63 examples/s]
+1790546734.942 Generating train split: 1047349 examples [00:04, 197142.71 examples/s]
+1790546735.322 Generating train split: 1070995 examples [00:04, 105239.45 examples/s]
+1790546735.476 Generating train split: 1093992 examples [00:05, 89314.80 examples/s] 
+1790546735.578 Generating train split: 1120539 examples [00:05, 103530.94 examples/s]
+1790546735.727 Generating train split: 1144046 examples [00:05, 121201.52 examples/s]
+1790546735.920 Generating train split: 1177724 examples [00:05, 144884.47 examples/s]
+1790546736.068 Generating train split: 1199864 examples [00:05, 135954.78 examples/s]
+1790546736.218 Generating train split: 1232066 examples [00:05, 155895.95 examples/s]
+1790546736.284 Generating train split: 1258683 examples [00:05, 161696.13 examples/s]
+1790546736.284 Generating train split: 1270238 examples [00:05, 212377.81 examples/s]
+1790546784.484 Epoch:[1/1](100/19848), loss: 7.3631, logits_loss: 7.3631, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 155.0min
+1790546833.162 Epoch:[1/1](200/19848), loss: 6.9602, logits_loss: 6.9602, aux_loss: 0.0000, lr: 0.00049989, epoch_time: 157.0min
+1790546884.826 Epoch:[1/1](300/19848), loss: 6.6691, logits_loss: 6.6691, aux_loss: 0.0000, lr: 0.00049975, epoch_time: 160.0min
+1790546938.135 Epoch:[1/1](400/19848), loss: 6.4248, logits_loss: 6.4248, aux_loss: 0.0000, lr: 0.00049955, epoch_time: 163.0min
+1790546991.423 Epoch:[1/1](500/19848), loss: 6.0316, logits_loss: 6.0316, aux_loss: 0.0000, lr: 0.00049930, epoch_time: 163.0min
+1790547044.310 Epoch:[1/1](600/19848), loss: 5.8820, logits_loss: 5.8820, aux_loss: 0.0000, lr: 0.00049899, epoch_time: 164.0min
+1790547097.670 Epoch:[1/1](700/19848), loss: 5.6840, logits_loss: 5.6840, aux_loss: 0.0000, lr: 0.00049862, epoch_time: 164.0min
+1790547151.278 Epoch:[1/1](800/19848), loss: 5.3228, logits_loss: 5.3228, aux_loss: 0.0000, lr: 0.00049820, epoch_time: 164.0min
+1790547204.901 Epoch:[1/1](900/19848), loss: 5.0007, logits_loss: 5.0007, aux_loss: 0.0000, lr: 0.00049772, epoch_time: 164.0min
+1790547258.175 Epoch:[1/1](1000/19848), loss: 4.9002, logits_loss: 4.9002, aux_loss: 0.0000, lr: 0.00049719, epoch_time: 163.0min
+1790547312.477 Epoch:[1/1](1100/19848), loss: 4.7095, logits_loss: 4.7095, aux_loss: 0.0000, lr: 0.00049660, epoch_time: 163.0min
+1790547365.515 Epoch:[1/1](1200/19848), loss: 4.4940, logits_loss: 4.4940, aux_loss: 0.0000, lr: 0.00049595, epoch_time: 162.0min
+1790547418.639 Epoch:[1/1](1300/19848), loss: 4.3786, logits_loss: 4.3786, aux_loss: 0.0000, lr: 0.00049525, epoch_time: 162.0min
+1790547472.112 Epoch:[1/1](1400/19848), loss: 4.1761, logits_loss: 4.1761, aux_loss: 0.0000, lr: 0.00049450, epoch_time: 161.0min
+1790547525.566 Epoch:[1/1](1500/19848), loss: 3.5547, logits_loss: 3.5547, aux_loss: 0.0000, lr: 0.00049369, epoch_time: 160.0min
+1790547579.158 Epoch:[1/1](1600/19848), loss: 4.0128, logits_loss: 4.0128, aux_loss: 0.0000, lr: 0.00049282, epoch_time: 160.0min
+1790547632.718 Epoch:[1/1](1700/19848), loss: 4.0296, logits_loss: 4.0296, aux_loss: 0.0000, lr: 0.00049190, epoch_time: 159.0min
+1790547686.291 Epoch:[1/1](1800/19848), loss: 3.9032, logits_loss: 3.9032, aux_loss: 0.0000, lr: 0.00049093, epoch_time: 158.0min
+1790547739.842 Epoch:[1/1](1900/19848), loss: 3.6848, logits_loss: 3.6848, aux_loss: 0.0000, lr: 0.00048990, epoch_time: 157.0min
+1790547793.103 Epoch:[1/1](2000/19848), loss: 3.3049, logits_loss: 3.3049, aux_loss: 0.0000, lr: 0.00048882, epoch_time: 157.0min
+1790547849.059 Epoch:[1/1](2100/19848), loss: 3.6813, logits_loss: 3.6813, aux_loss: 0.0000, lr: 0.00048768, epoch_time: 156.0min
+1790547902.273 Epoch:[1/1](2200/19848), loss: 3.4598, logits_loss: 3.4598, aux_loss: 0.0000, lr: 0.00048650, epoch_time: 155.0min
+1790547955.672 Epoch:[1/1](2300/19848), loss: 3.1737, logits_loss: 3.1737, aux_loss: 0.0000, lr: 0.00048525, epoch_time: 154.0min
+1790548009.132 Epoch:[1/1](2400/19848), loss: 3.1596, logits_loss: 3.1596, aux_loss: 0.0000, lr: 0.00048396, epoch_time: 154.0min
+1790548062.706 Epoch:[1/1](2500/19848), loss: 3.1346, logits_loss: 3.1346, aux_loss: 0.0000, lr: 0.00048261, epoch_time: 153.0min
+1790548116.228 Epoch:[1/1](2600/19848), loss: 3.3111, logits_loss: 3.3111, aux_loss: 0.0000, lr: 0.00048121, epoch_time: 152.0min
+1790548169.807 Epoch:[1/1](2700/19848), loss: 3.1580, logits_loss: 3.1580, aux_loss: 0.0000, lr: 0.00047976, epoch_time: 151.0min
+1790548223.495 Epoch:[1/1](2800/19848), loss: 3.0115, logits_loss: 3.0115, aux_loss: 0.0000, lr: 0.00047826, epoch_time: 150.0min
+1790548277.132 Epoch:[1/1](2900/19848), loss: 2.8769, logits_loss: 2.8769, aux_loss: 0.0000, lr: 0.00047671, epoch_time: 149.0min
+1790548330.751 Epoch:[1/1](3000/19848), loss: 2.9284, logits_loss: 2.9284, aux_loss: 0.0000, lr: 0.00047511, epoch_time: 149.0min
+1790548387.145 Epoch:[1/1](3100/19848), loss: 2.8793, logits_loss: 2.8793, aux_loss: 0.0000, lr: 0.00047345, epoch_time: 148.0min
+1790548440.296 Epoch:[1/1](3200/19848), loss: 2.9068, logits_loss: 2.9068, aux_loss: 0.0000, lr: 0.00047175, epoch_time: 147.0min
+1790548493.231 Epoch:[1/1](3300/19848), loss: 2.8558, logits_loss: 2.8558, aux_loss: 0.0000, lr: 0.00047000, epoch_time: 146.0min
+1790548546.395 Epoch:[1/1](3400/19848), loss: 2.8043, logits_loss: 2.8043, aux_loss: 0.0000, lr: 0.00046820, epoch_time: 145.0min
+1790548599.646 Epoch:[1/1](3500/19848), loss: 2.7425, logits_loss: 2.7425, aux_loss: 0.0000, lr: 0.00046635, epoch_time: 144.0min
+1790548652.920 Epoch:[1/1](3600/19848), loss: 2.7079, logits_loss: 2.7079, aux_loss: 0.0000, lr: 0.00046445, epoch_time: 144.0min
+1790548706.235 Epoch:[1/1](3700/19848), loss: 2.7621, logits_loss: 2.7621, aux_loss: 0.0000, lr: 0.00046250, epoch_time: 143.0min
+1790548759.735 Epoch:[1/1](3800/19848), loss: 2.8300, logits_loss: 2.8300, aux_loss: 0.0000, lr: 0.00046051, epoch_time: 142.0min
+1790548813.237 Epoch:[1/1](3900/19848), loss: 2.7911, logits_loss: 2.7911, aux_loss: 0.0000, lr: 0.00045847, epoch_time: 141.0min
+1790548866.911 Epoch:[1/1](4000/19848), loss: 2.7957, logits_loss: 2.7957, aux_loss: 0.0000, lr: 0.00045639, epoch_time: 140.0min
+1790548923.122 Epoch:[1/1](4100/19848), loss: 2.6405, logits_loss: 2.6405, aux_loss: 0.0000, lr: 0.00045426, epoch_time: 139.0min
+1790548976.143 Epoch:[1/1](4200/19848), loss: 2.6425, logits_loss: 2.6425, aux_loss: 0.0000, lr: 0.00045209, epoch_time: 139.0min
+1790549029.475 Epoch:[1/1](4300/19848), loss: 2.6118, logits_loss: 2.6118, aux_loss: 0.0000, lr: 0.00044987, epoch_time: 138.0min
+1790549083.140 Epoch:[1/1](4400/19848), loss: 2.7321, logits_loss: 2.7321, aux_loss: 0.0000, lr: 0.00044760, epoch_time: 137.0min
+1790549136.398 Epoch:[1/1](4500/19848), loss: 2.4688, logits_loss: 2.4688, aux_loss: 0.0000, lr: 0.00044530, epoch_time: 136.0min
+1790549189.688 Epoch:[1/1](4600/19848), loss: 2.9780, logits_loss: 2.9780, aux_loss: 0.0000, lr: 0.00044295, epoch_time: 135.0min
+1790549242.867 Epoch:[1/1](4700/19848), loss: 2.5541, logits_loss: 2.5541, aux_loss: 0.0000, lr: 0.00044056, epoch_time: 134.0min
+1790549296.104 Epoch:[1/1](4800/19848), loss: 2.3977, logits_loss: 2.3977, aux_loss: 0.0000, lr: 0.00043813, epoch_time: 133.0min
+1790549349.151 Epoch:[1/1](4900/19848), loss: 2.4702, logits_loss: 2.4702, aux_loss: 0.0000, lr: 0.00043565, epoch_time: 132.0min
+1790549402.317 Epoch:[1/1](5000/19848), loss: 2.4666, logits_loss: 2.4666, aux_loss: 0.0000, lr: 0.00043314, epoch_time: 131.0min
+1790549458.295 Epoch:[1/1](5100/19848), loss: 2.5042, logits_loss: 2.5042, aux_loss: 0.0000, lr: 0.00043059, epoch_time: 131.0min
+1790549511.217 Epoch:[1/1](5200/19848), loss: 2.7011, logits_loss: 2.7011, aux_loss: 0.0000, lr: 0.00042799, epoch_time: 130.0min
+1790549564.316 Epoch:[1/1](5300/19848), loss: 2.8102, logits_loss: 2.8102, aux_loss: 0.0000, lr: 0.00042536, epoch_time: 129.0min
+1790549617.320 Epoch:[1/1](5400/19848), loss: 2.4341, logits_loss: 2.4341, aux_loss: 0.0000, lr: 0.00042270, epoch_time: 128.0min
+1790549670.377 Epoch:[1/1](5500/19848), loss: 2.5987, logits_loss: 2.5987, aux_loss: 0.0000, lr: 0.00041999, epoch_time: 127.0min
+1790549723.239 Epoch:[1/1](5600/19848), loss: 2.5683, logits_loss: 2.5683, aux_loss: 0.0000, lr: 0.00041725, epoch_time: 126.0min
+1790549776.229 Epoch:[1/1](5700/19848), loss: 2.5025, logits_loss: 2.5025, aux_loss: 0.0000, lr: 0.00041447, epoch_time: 125.0min
+1790549829.239 Epoch:[1/1](5800/19848), loss: 2.5109, logits_loss: 2.5109, aux_loss: 0.0000, lr: 0.00041166, epoch_time: 124.0min
+1790549882.092 Epoch:[1/1](5900/19848), loss: 2.6831, logits_loss: 2.6831, aux_loss: 0.0000, lr: 0.00040881, epoch_time: 123.0min
+1790549935.095 Epoch:[1/1](6000/19848), loss: 2.5447, logits_loss: 2.5447, aux_loss: 0.0000, lr: 0.00040593, epoch_time: 123.0min
+1790549991.075 Epoch:[1/1](6100/19848), loss: 2.5014, logits_loss: 2.5014, aux_loss: 0.0000, lr: 0.00040302, epoch_time: 122.0min
+1790550044.445 Epoch:[1/1](6200/19848), loss: 2.5641, logits_loss: 2.5641, aux_loss: 0.0000, lr: 0.00040008, epoch_time: 121.0min
+1790550097.882 Epoch:[1/1](6300/19848), loss: 2.5142, logits_loss: 2.5142, aux_loss: 0.0000, lr: 0.00039710, epoch_time: 120.0min
+1790550151.347 Epoch:[1/1](6400/19848), loss: 2.3665, logits_loss: 2.3665, aux_loss: 0.0000, lr: 0.00039409, epoch_time: 119.0min
+1790550204.499 Epoch:[1/1](6500/19848), loss: 2.2016, logits_loss: 2.2016, aux_loss: 0.0000, lr: 0.00039106, epoch_time: 118.0min
+1790550257.582 Epoch:[1/1](6600/19848), loss: 2.5900, logits_loss: 2.5900, aux_loss: 0.0000, lr: 0.00038799, epoch_time: 117.0min
+1790550310.672 Epoch:[1/1](6700/19848), loss: 2.3558, logits_loss: 2.3558, aux_loss: 0.0000, lr: 0.00038490, epoch_time: 116.0min
+1790550363.948 Epoch:[1/1](6800/19848), loss: 2.4475, logits_loss: 2.4475, aux_loss: 0.0000, lr: 0.00038178, epoch_time: 115.0min
+1790550417.364 Epoch:[1/1](6900/19848), loss: 2.3799, logits_loss: 2.3799, aux_loss: 0.0000, lr: 0.00037863, epoch_time: 115.0min
+1790550470.805 Epoch:[1/1](7000/19848), loss: 2.5766, logits_loss: 2.5766, aux_loss: 0.0000, lr: 0.00037546, epoch_time: 114.0min
+1790550526.987 Epoch:[1/1](7100/19848), loss: 2.4947, logits_loss: 2.4947, aux_loss: 0.0000, lr: 0.00037226, epoch_time: 113.0min
+1790550580.330 Epoch:[1/1](7200/19848), loss: 2.4080, logits_loss: 2.4080, aux_loss: 0.0000, lr: 0.00036903, epoch_time: 112.0min
+1790550633.782 Epoch:[1/1](7300/19848), loss: 2.4740, logits_loss: 2.4740, aux_loss: 0.0000, lr: 0.00036579, epoch_time: 111.0min
+1790550687.200 Epoch:[1/1](7400/19848), loss: 2.4904, logits_loss: 2.4904, aux_loss: 0.0000, lr: 0.00036252, epoch_time: 110.0min
+1790550740.737 Epoch:[1/1](7500/19848), loss: 2.3960, logits_loss: 2.3960, aux_loss: 0.0000, lr: 0.00035922, epoch_time: 109.0min
+1790550794.122 Epoch:[1/1](7600/19848), loss: 2.5319, logits_loss: 2.5319, aux_loss: 0.0000, lr: 0.00035591, epoch_time: 108.0min
+1790550847.627 Epoch:[1/1](7700/19848), loss: 2.4697, logits_loss: 2.4697, aux_loss: 0.0000, lr: 0.00035258, epoch_time: 108.0min
+1790550901.261 Epoch:[1/1](7800/19848), loss: 2.2528, logits_loss: 2.2528, aux_loss: 0.0000, lr: 0.00034923, epoch_time: 107.0min
+1790550954.769 Epoch:[1/1](7900/19848), loss: 2.3981, logits_loss: 2.3981, aux_loss: 0.0000, lr: 0.00034586, epoch_time: 106.0min
+1790551008.119 Epoch:[1/1](8000/19848), loss: 2.5380, logits_loss: 2.5380, aux_loss: 0.0000, lr: 0.00034247, epoch_time: 105.0min
+1790551064.258 Epoch:[1/1](8100/19848), loss: 2.4261, logits_loss: 2.4261, aux_loss: 0.0000, lr: 0.00033906, epoch_time: 104.0min
+1790551117.381 Epoch:[1/1](8200/19848), loss: 2.2204, logits_loss: 2.2204, aux_loss: 0.0000, lr: 0.00033564, epoch_time: 103.0min
+1790551170.462 Epoch:[1/1](8300/19848), loss: 2.3237, logits_loss: 2.3237, aux_loss: 0.0000, lr: 0.00033220, epoch_time: 102.0min
+1790551223.527 Epoch:[1/1](8400/19848), loss: 2.2009, logits_loss: 2.2009, aux_loss: 0.0000, lr: 0.00032875, epoch_time: 101.0min
+1790551276.510 Epoch:[1/1](8500/19848), loss: 2.3458, logits_loss: 2.3458, aux_loss: 0.0000, lr: 0.00032529, epoch_time: 101.0min
+1790551329.589 Epoch:[1/1](8600/19848), loss: 2.2826, logits_loss: 2.2826, aux_loss: 0.0000, lr: 0.00032181, epoch_time: 100.0min
+1790551382.613 Epoch:[1/1](8700/19848), loss: 2.6539, logits_loss: 2.6539, aux_loss: 0.0000, lr: 0.00031832, epoch_time: 99.0min
+1790551435.575 Epoch:[1/1](8800/19848), loss: 2.4259, logits_loss: 2.4259, aux_loss: 0.0000, lr: 0.00031482, epoch_time: 98.0min
+1790551488.533 Epoch:[1/1](8900/19848), loss: 2.4699, logits_loss: 2.4699, aux_loss: 0.0000, lr: 0.00031131, epoch_time: 97.0min
+1790551541.516 Epoch:[1/1](9000/19848), loss: 2.4372, logits_loss: 2.4372, aux_loss: 0.0000, lr: 0.00030779, epoch_time: 96.0min
+1790551597.264 Epoch:[1/1](9100/19848), loss: 2.3405, logits_loss: 2.3405, aux_loss: 0.0000, lr: 0.00030426, epoch_time: 95.0min
+1790551650.180 Epoch:[1/1](9200/19848), loss: 2.3566, logits_loss: 2.3566, aux_loss: 0.0000, lr: 0.00030073, epoch_time: 94.0min
+1790551703.117 Epoch:[1/1](9300/19848), loss: 2.3444, logits_loss: 2.3444, aux_loss: 0.0000, lr: 0.00029719, epoch_time: 93.0min
+1790551756.047 Epoch:[1/1](9400/19848), loss: 2.2793, logits_loss: 2.2793, aux_loss: 0.0000, lr: 0.00029364, epoch_time: 92.0min
+1790551809.008 Epoch:[1/1](9500/19848), loss: 2.1206, logits_loss: 2.1206, aux_loss: 0.0000, lr: 0.00029009, epoch_time: 92.0min
+1790551861.941 Epoch:[1/1](9600/19848), loss: 2.1574, logits_loss: 2.1574, aux_loss: 0.0000, lr: 0.00028653, epoch_time: 91.0min
+1790551914.981 Epoch:[1/1](9700/19848), loss: 2.7234, logits_loss: 2.7234, aux_loss: 0.0000, lr: 0.00028298, epoch_time: 90.0min
+1790551968.146 Epoch:[1/1](9800/19848), loss: 2.1835, logits_loss: 2.1835, aux_loss: 0.0000, lr: 0.00027942, epoch_time: 89.0min
+1790552021.383 Epoch:[1/1](9900/19848), loss: 2.4130, logits_loss: 2.4130, aux_loss: 0.0000, lr: 0.00027585, epoch_time: 88.0min
+1790552074.602 Epoch:[1/1](10000/19848), loss: 2.0425, logits_loss: 2.0425, aux_loss: 0.0000, lr: 0.00027229, epoch_time: 87.0min
+1790552130.565 Epoch:[1/1](10100/19848), loss: 2.2473, logits_loss: 2.2473, aux_loss: 0.0000, lr: 0.00026873, epoch_time: 86.0min
+1790552183.815 Epoch:[1/1](10200/19848), loss: 2.3912, logits_loss: 2.3912, aux_loss: 0.0000, lr: 0.00026517, epoch_time: 85.0min
+1790552237.213 Epoch:[1/1](10300/19848), loss: 2.2350, logits_loss: 2.2350, aux_loss: 0.0000, lr: 0.00026162, epoch_time: 84.0min
+1790552290.469 Epoch:[1/1](10400/19848), loss: 2.2350, logits_loss: 2.2350, aux_loss: 0.0000, lr: 0.00025806, epoch_time: 84.0min
+1790552343.883 Epoch:[1/1](10500/19848), loss: 2.1609, logits_loss: 2.1609, aux_loss: 0.0000, lr: 0.00025451, epoch_time: 83.0min
+1790552397.303 Epoch:[1/1](10600/19848), loss: 2.2292, logits_loss: 2.2292, aux_loss: 0.0000, lr: 0.00025097, epoch_time: 82.0min
+1790552450.665 Epoch:[1/1](10700/19848), loss: 2.3025, logits_loss: 2.3025, aux_loss: 0.0000, lr: 0.00024743, epoch_time: 81.0min
+1790552504.123 Epoch:[1/1](10800/19848), loss: 2.4222, logits_loss: 2.4222, aux_loss: 0.0000, lr: 0.00024390, epoch_time: 80.0min
+1790552557.475 Epoch:[1/1](10900/19848), loss: 2.2905, logits_loss: 2.2905, aux_loss: 0.0000, lr: 0.00024038, epoch_time: 79.0min
+1790552610.871 Epoch:[1/1](11000/19848), loss: 2.3268, logits_loss: 2.3268, aux_loss: 0.0000, lr: 0.00023686, epoch_time: 78.0min
+1790552666.777 Epoch:[1/1](11100/19848), loss: 2.3204, logits_loss: 2.3204, aux_loss: 0.0000, lr: 0.00023336, epoch_time: 77.0min
+1790552720.002 Epoch:[1/1](11200/19848), loss: 2.2333, logits_loss: 2.2333, aux_loss: 0.0000, lr: 0.00022987, epoch_time: 76.0min
+1790552773.413 Epoch:[1/1](11300/19848), loss: 2.2272, logits_loss: 2.2272, aux_loss: 0.0000, lr: 0.00022638, epoch_time: 76.0min
+1790552826.779 Epoch:[1/1](11400/19848), loss: 2.1529, logits_loss: 2.1529, aux_loss: 0.0000, lr: 0.00022291, epoch_time: 75.0min
+1790552880.172 Epoch:[1/1](11500/19848), loss: 2.3545, logits_loss: 2.3545, aux_loss: 0.0000, lr: 0.00021945, epoch_time: 74.0min
+1790552933.541 Epoch:[1/1](11600/19848), loss: 2.2899, logits_loss: 2.2899, aux_loss: 0.0000, lr: 0.00021601, epoch_time: 73.0min
+1790552986.930 Epoch:[1/1](11700/19848), loss: 2.2833, logits_loss: 2.2833, aux_loss: 0.0000, lr: 0.00021258, epoch_time: 72.0min
+1790553040.448 Epoch:[1/1](11800/19848), loss: 2.1972, logits_loss: 2.1972, aux_loss: 0.0000, lr: 0.00020917, epoch_time: 71.0min
+1790553093.889 Epoch:[1/1](11900/19848), loss: 2.4688, logits_loss: 2.4688, aux_loss: 0.0000, lr: 0.00020577, epoch_time: 70.0min
+1790553147.280 Epoch:[1/1](12000/19848), loss: 2.1332, logits_loss: 2.1332, aux_loss: 0.0000, lr: 0.00020239, epoch_time: 69.0min
+1790553203.410 Epoch:[1/1](12100/19848), loss: 2.3386, logits_loss: 2.3386, aux_loss: 0.0000, lr: 0.00019903, epoch_time: 69.0min
+1790553256.705 Epoch:[1/1](12200/19848), loss: 2.2765, logits_loss: 2.2765, aux_loss: 0.0000, lr: 0.00019569, epoch_time: 68.0min
+1790553310.110 Epoch:[1/1](12300/19848), loss: 2.2933, logits_loss: 2.2933, aux_loss: 0.0000, lr: 0.00019236, epoch_time: 67.0min
+1790553363.427 Epoch:[1/1](12400/19848), loss: 2.1891, logits_loss: 2.1891, aux_loss: 0.0000, lr: 0.00018906, epoch_time: 66.0min
+1790553416.617 Epoch:[1/1](12500/19848), loss: 2.3761, logits_loss: 2.3761, aux_loss: 0.0000, lr: 0.00018578, epoch_time: 65.0min
+1790553470.066 Epoch:[1/1](12600/19848), loss: 2.0822, logits_loss: 2.0822, aux_loss: 0.0000, lr: 0.00018252, epoch_time: 64.0min
+1790553523.546 Epoch:[1/1](12700/19848), loss: 2.1946, logits_loss: 2.1946, aux_loss: 0.0000, lr: 0.00017929, epoch_time: 63.0min
+1790553576.939 Epoch:[1/1](12800/19848), loss: 2.0878, logits_loss: 2.0878, aux_loss: 0.0000, lr: 0.00017608, epoch_time: 62.0min
+1790553630.189 Epoch:[1/1](12900/19848), loss: 2.1703, logits_loss: 2.1703, aux_loss: 0.0000, lr: 0.00017289, epoch_time: 61.0min
+1790553683.666 Epoch:[1/1](13000/19848), loss: 2.2912, logits_loss: 2.2912, aux_loss: 0.0000, lr: 0.00016973, epoch_time: 60.0min
+1790553739.925 Epoch:[1/1](13100/19848), loss: 2.0794, logits_loss: 2.0794, aux_loss: 0.0000, lr: 0.00016660, epoch_time: 60.0min
+1790553793.214 Epoch:[1/1](13200/19848), loss: 2.2543, logits_loss: 2.2543, aux_loss: 0.0000, lr: 0.00016349, epoch_time: 59.0min
+1790553846.646 Epoch:[1/1](13300/19848), loss: 2.2742, logits_loss: 2.2742, aux_loss: 0.0000, lr: 0.00016041, epoch_time: 58.0min
+1790553900.004 Epoch:[1/1](13400/19848), loss: 2.0967, logits_loss: 2.0967, aux_loss: 0.0000, lr: 0.00015736, epoch_time: 57.0min
+1790553953.364 Epoch:[1/1](13500/19848), loss: 2.1501, logits_loss: 2.1501, aux_loss: 0.0000, lr: 0.00015434, epoch_time: 56.0min
+1790554006.761 Epoch:[1/1](13600/19848), loss: 2.2470, logits_loss: 2.2470, aux_loss: 0.0000, lr: 0.00015135, epoch_time: 55.0min
+1790554060.142 Epoch:[1/1](13700/19848), loss: 1.9684, logits_loss: 1.9684, aux_loss: 0.0000, lr: 0.00014839, epoch_time: 54.0min
+1790554113.582 Epoch:[1/1](13800/19848), loss: 2.0800, logits_loss: 2.0800, aux_loss: 0.0000, lr: 0.00014546, epoch_time: 53.0min
+1790554166.954 Epoch:[1/1](13900/19848), loss: 2.1061, logits_loss: 2.1061, aux_loss: 0.0000, lr: 0.00014256, epoch_time: 52.0min
+1790554220.312 Epoch:[1/1](14000/19848), loss: 2.3444, logits_loss: 2.3444, aux_loss: 0.0000, lr: 0.00013970, epoch_time: 52.0min
+1790554276.552 Epoch:[1/1](14100/19848), loss: 2.4425, logits_loss: 2.4425, aux_loss: 0.0000, lr: 0.00013687, epoch_time: 51.0min
+1790554329.816 Epoch:[1/1](14200/19848), loss: 2.1962, logits_loss: 2.1962, aux_loss: 0.0000, lr: 0.00013408, epoch_time: 50.0min
+1790554383.113 Epoch:[1/1](14300/19848), loss: 2.3751, logits_loss: 2.3751, aux_loss: 0.0000, lr: 0.00013132, epoch_time: 49.0min
+1790554436.498 Epoch:[1/1](14400/19848), loss: 1.9595, logits_loss: 1.9595, aux_loss: 0.0000, lr: 0.00012860, epoch_time: 48.0min
+1790554489.749 Epoch:[1/1](14500/19848), loss: 2.1532, logits_loss: 2.1532, aux_loss: 0.0000, lr: 0.00012591, epoch_time: 47.0min
+1790554543.124 Epoch:[1/1](14600/19848), loss: 2.1172, logits_loss: 2.1172, aux_loss: 0.0000, lr: 0.00012326, epoch_time: 46.0min
+1790554596.401 Epoch:[1/1](14700/19848), loss: 2.1261, logits_loss: 2.1261, aux_loss: 0.0000, lr: 0.00012065, epoch_time: 45.0min
+1790554649.790 Epoch:[1/1](14800/19848), loss: 2.2535, logits_loss: 2.2535, aux_loss: 0.0000, lr: 0.00011808, epoch_time: 44.0min
+1790554703.162 Epoch:[1/1](14900/19848), loss: 1.9630, logits_loss: 1.9630, aux_loss: 0.0000, lr: 0.00011555, epoch_time: 44.0min
+1790554756.636 Epoch:[1/1](15000/19848), loss: 2.2659, logits_loss: 2.2659, aux_loss: 0.0000, lr: 0.00011306, epoch_time: 43.0min
+1790554812.718 Epoch:[1/1](15100/19848), loss: 2.0695, logits_loss: 2.0695, aux_loss: 0.0000, lr: 0.00011060, epoch_time: 42.0min
+1790554865.635 Epoch:[1/1](15200/19848), loss: 2.2331, logits_loss: 2.2331, aux_loss: 0.0000, lr: 0.00010819, epoch_time: 41.0min
+1790554918.544 Epoch:[1/1](15300/19848), loss: 2.2793, logits_loss: 2.2793, aux_loss: 0.0000, lr: 0.00010582, epoch_time: 40.0min
+1790554971.578 Epoch:[1/1](15400/19848), loss: 2.2200, logits_loss: 2.2200, aux_loss: 0.0000, lr: 0.00010350, epoch_time: 39.0min
+1790555024.703 Epoch:[1/1](15500/19848), loss: 2.0655, logits_loss: 2.0655, aux_loss: 0.0000, lr: 0.00010121, epoch_time: 38.0min
+1790555077.923 Epoch:[1/1](15600/19848), loss: 2.0332, logits_loss: 2.0332, aux_loss: 0.0000, lr: 0.00009897, epoch_time: 37.0min
+1790555131.264 Epoch:[1/1](15700/19848), loss: 1.9741, logits_loss: 1.9741, aux_loss: 0.0000, lr: 0.00009678, epoch_time: 36.0min
+1790555184.619 Epoch:[1/1](15800/19848), loss: 2.0220, logits_loss: 2.0220, aux_loss: 0.0000, lr: 0.00009463, epoch_time: 36.0min
+1790555237.954 Epoch:[1/1](15900/19848), loss: 2.3786, logits_loss: 2.3786, aux_loss: 0.0000, lr: 0.00009252, epoch_time: 35.0min
+1790555291.235 Epoch:[1/1](16000/19848), loss: 2.0274, logits_loss: 2.0274, aux_loss: 0.0000, lr: 0.00009046, epoch_time: 34.0min
+1790555347.478 Epoch:[1/1](16100/19848), loss: 1.9991, logits_loss: 1.9991, aux_loss: 0.0000, lr: 0.00008845, epoch_time: 33.0min
+1790555400.714 Epoch:[1/1](16200/19848), loss: 2.4584, logits_loss: 2.4584, aux_loss: 0.0000, lr: 0.00008648, epoch_time: 32.0min
+1790555453.987 Epoch:[1/1](16300/19848), loss: 2.0094, logits_loss: 2.0094, aux_loss: 0.0000, lr: 0.00008456, epoch_time: 31.0min
+1790555507.244 Epoch:[1/1](16400/19848), loss: 1.9888, logits_loss: 1.9888, aux_loss: 0.0000, lr: 0.00008268, epoch_time: 30.0min
+1790555560.600 Epoch:[1/1](16500/19848), loss: 1.9745, logits_loss: 1.9745, aux_loss: 0.0000, lr: 0.00008086, epoch_time: 29.0min
+1790555614.132 Epoch:[1/1](16600/19848), loss: 2.1180, logits_loss: 2.1180, aux_loss: 0.0000, lr: 0.00007908, epoch_time: 28.0min
+1790555667.504 Epoch:[1/1](16700/19848), loss: 2.0363, logits_loss: 2.0363, aux_loss: 0.0000, lr: 0.00007736, epoch_time: 28.0min
+1790555720.899 Epoch:[1/1](16800/19848), loss: 2.1908, logits_loss: 2.1908, aux_loss: 0.0000, lr: 0.00007568, epoch_time: 27.0min
+1790555774.185 Epoch:[1/1](16900/19848), loss: 2.0539, logits_loss: 2.0539, aux_loss: 0.0000, lr: 0.00007405, epoch_time: 26.0min
+1790555827.598 Epoch:[1/1](17000/19848), loss: 2.1337, logits_loss: 2.1337, aux_loss: 0.0000, lr: 0.00007248, epoch_time: 25.0min
+1790555883.911 Epoch:[1/1](17100/19848), loss: 2.0685, logits_loss: 2.0685, aux_loss: 0.0000, lr: 0.00007095, epoch_time: 24.0min
+1790555937.256 Epoch:[1/1](17200/19848), loss: 2.0158, logits_loss: 2.0158, aux_loss: 0.0000, lr: 0.00006948, epoch_time: 23.0min
+1790555990.621 Epoch:[1/1](17300/19848), loss: 1.9410, logits_loss: 1.9410, aux_loss: 0.0000, lr: 0.00006805, epoch_time: 22.0min
+1790556043.962 Epoch:[1/1](17400/19848), loss: 2.1671, logits_loss: 2.1671, aux_loss: 0.0000, lr: 0.00006668, epoch_time: 21.0min
+1790556097.333 Epoch:[1/1](17500/19848), loss: 2.2396, logits_loss: 2.2396, aux_loss: 0.0000, lr: 0.00006536, epoch_time: 20.0min
+1790556150.692 Epoch:[1/1](17600/19848), loss: 2.2881, logits_loss: 2.2881, aux_loss: 0.0000, lr: 0.00006409, epoch_time: 20.0min
+1790556203.930 Epoch:[1/1](17700/19848), loss: 2.0917, logits_loss: 2.0917, aux_loss: 0.0000, lr: 0.00006288, epoch_time: 19.0min
+1790556257.262 Epoch:[1/1](17800/19848), loss: 2.0528, logits_loss: 2.0528, aux_loss: 0.0000, lr: 0.00006172, epoch_time: 18.0min
+1790556310.647 Epoch:[1/1](17900/19848), loss: 2.1347, logits_loss: 2.1347, aux_loss: 0.0000, lr: 0.00006061, epoch_time: 17.0min
+1790556363.984 Epoch:[1/1](18000/19848), loss: 2.2127, logits_loss: 2.2127, aux_loss: 0.0000, lr: 0.00005956, epoch_time: 16.0min
+1790556420.154 Epoch:[1/1](18100/19848), loss: 2.2109, logits_loss: 2.2109, aux_loss: 0.0000, lr: 0.00005856, epoch_time: 15.0min
+1790556473.504 Epoch:[1/1](18200/19848), loss: 2.0733, logits_loss: 2.0733, aux_loss: 0.0000, lr: 0.00005761, epoch_time: 14.0min
+1790556526.800 Epoch:[1/1](18300/19848), loss: 2.2545, logits_loss: 2.2545, aux_loss: 0.0000, lr: 0.00005672, epoch_time: 13.0min
+1790556580.061 Epoch:[1/1](18400/19848), loss: 2.1078, logits_loss: 2.1078, aux_loss: 0.0000, lr: 0.00005588, epoch_time: 12.0min
+1790556633.508 Epoch:[1/1](18500/19848), loss: 2.0452, logits_loss: 2.0452, aux_loss: 0.0000, lr: 0.00005510, epoch_time: 12.0min
+1790556686.764 Epoch:[1/1](18600/19848), loss: 2.3420, logits_loss: 2.3420, aux_loss: 0.0000, lr: 0.00005438, epoch_time: 11.0min
+1790556740.091 Epoch:[1/1](18700/19848), loss: 2.3534, logits_loss: 2.3534, aux_loss: 0.0000, lr: 0.00005370, epoch_time: 10.0min
+1790556793.460 Epoch:[1/1](18800/19848), loss: 2.1624, logits_loss: 2.1624, aux_loss: 0.0000, lr: 0.00005309, epoch_time: 9.0min
+1790556846.812 Epoch:[1/1](18900/19848), loss: 2.0439, logits_loss: 2.0439, aux_loss: 0.0000, lr: 0.00005253, epoch_time: 8.0min
+1790556900.212 Epoch:[1/1](19000/19848), loss: 2.2732, logits_loss: 2.2732, aux_loss: 0.0000, lr: 0.00005202, epoch_time: 7.0min
+1790556956.181 Epoch:[1/1](19100/19848), loss: 2.1422, logits_loss: 2.1422, aux_loss: 0.0000, lr: 0.00005158, epoch_time: 6.0min
+1790557009.450 Epoch:[1/1](19200/19848), loss: 2.2876, logits_loss: 2.2876, aux_loss: 0.0000, lr: 0.00005118, epoch_time: 5.0min
+1790557062.770 Epoch:[1/1](19300/19848), loss: 2.2803, logits_loss: 2.2803, aux_loss: 0.0000, lr: 0.00005085, epoch_time: 4.0min
+1790557116.239 Epoch:[1/1](19400/19848), loss: 1.9900, logits_loss: 1.9900, aux_loss: 0.0000, lr: 0.00005057, epoch_time: 3.0min
+1790557169.642 Epoch:[1/1](19500/19848), loss: 2.2372, logits_loss: 2.2372, aux_loss: 0.0000, lr: 0.00005034, epoch_time: 3.0min
+1790557223.233 Epoch:[1/1](19600/19848), loss: 2.0607, logits_loss: 2.0607, aux_loss: 0.0000, lr: 0.00005017, epoch_time: 2.0min
+1790557276.805 Epoch:[1/1](19700/19848), loss: 2.0397, logits_loss: 2.0397, aux_loss: 0.0000, lr: 0.00005006, epoch_time: 1.0min
+1790557330.221 Epoch:[1/1](19800/19848), loss: 2.0347, logits_loss: 2.0347, aux_loss: 0.0000, lr: 0.00005001, epoch_time: 0.0min
+1790557355.417 Epoch:[1/1](19848/19848), loss: 2.1009, logits_loss: 2.1009, aux_loss: 0.0000, lr: 0.00005000, epoch_time: 0.0min
